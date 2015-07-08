@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+  **********************************************************************************************
+
+  Este archivo se generó con una herramienta del archivo de proyecto: ServiceConfiguration.Cloud.cscfg
+
+  Los cambios realizados en este archivo puede provocar un comportamiento incorrecto y se perderán si el archivo se vuelve a generar.
+
+  **********************************************************************************************
+-->
+<ServiceConfiguration serviceName="TwitterBot" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="4" osVersion="*" schemaVersion="2014-06.2.4">
+  <Role name="AsyncTwitterBot">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="StorageConnectionString" value="DefaultEndpointsProtocol=https;AccountName=botceos;AccountKey=uREirjN6OxW27osg8dPCTDAVUlBaJMunmegJC1UTQt6jNzKF5YwfFZ5GqJQn6fY7wkdek4QVY5PeWUnHcU7mVw==" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=botceos;AccountKey=uREirjN6OxW27osg8dPCTDAVUlBaJMunmegJC1UTQt6jNzKF5YwfFZ5GqJQn6fY7wkdek4QVY5PeWUnHcU7mVw==" />
+    </ConfigurationSettings>
+  </Role>
+</ServiceConfiguration>
